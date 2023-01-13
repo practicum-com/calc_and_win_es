@@ -1,19 +1,19 @@
 from module import run_game
 
-INTRO = '''CALCULATE AND WIN!
-Loading...
+INTRO = '''¡CALCULA Y GANA!
+Cargando...
 
-You have 5 turns to do damage that falls within the
-range of +-10 points of the health value of the enemy.
+Tienes 5 turnos para conseguir un número de puntos de daño,
+que caen dentro del rango de +/- 10 del valor de salud de tu enemigo.
 
-The enemy's health value is randomly
-generated between 80 and 120 points.
+El valor de salud del enemigo se genera
+aleatoriamente entre 80 y 120 puntos.
 
-You have three types of attacks at your disposal:
-light — damage from 2 to 5 points
-medium — damage from 15 to 25 points
-heavy — damage from 30 to 40 points
-GO FOR THE WIN!!!
+Tienes tres tipos de ataques a tu disposición:
+débil: daño de 2 a 5 puntos.
+medio: daño de 15 a 25 puntos.
+fuerte: daño de 30 a 40 puntos.
+¡¡¡VE POR LA VICTORIA!!!
 '''
 
 def main():
